@@ -27,7 +27,7 @@ UPDATE_PACKAGE "alpha-config" "animegasan/luci-app-alpha-config" "master"
 
 UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
 
-
+UPDATE_PACKAGE "accesscontrol-plus" "kiddin9/luci-app-accesscontrol-plus" "patch-1"
 
 if [[ $WRT_REPO == *"openwrt-6.x"* ]]; then
 	UPDATE_PACKAGE "qmi-wwan" "immortalwrt/wwan-packages" "master" "pkg"
