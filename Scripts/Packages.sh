@@ -24,9 +24,6 @@ UPDATE_PACKAGE() {
 
 UPDATE_PACKAGE "kucat" "sirpdboy/luci-theme-kucat" "js"
 
-
-
-
 UPDATE_PACKAGE "luci-app-advancedplus" "VIKINGYFY/luci-app-advancedplus" "main"
 
 
@@ -68,5 +65,3 @@ UPDATE_VERSION() {
 	done
 }
 
-#UPDATE_VERSION "软件包名" "测试版，true，可选，默认为否"
-UPDATE_VERSION "sing-box" "true"
